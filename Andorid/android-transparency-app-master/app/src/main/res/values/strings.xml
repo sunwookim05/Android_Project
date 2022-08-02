@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Transparency App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Data Usage -->
+    <string name="sent_out">Sent out</string>
+    <string name="trafficstats_dialog_title">Note</string>
+    <string name="trafficstats_dialog_message">Your device does not support traffic stats monitoring.</string>
+    <string name="networkstats_usage_dialog_message">In order to retrieve the data usage, the app requires the permission to access the usage stats.\nEnable access for \"Transparency App\".</string>
+    <string name="networkstats_usage_dialog_message_cancel">Unable to retrieve data usage due to denied permission.</string>
+    <string name="networkstats_phonestats_dialog_message">In order to retrieve the MOBILE data usage as well, the app requires the permission to read the phone stats.</string>
+    <string name="networkstats_phonestats_dialog_message_cancel">MOBILE data usage is not included due to denied permission.</string>
+    <string name="connection_app_usage_dialog_message">In order to retrieve the data usage, the app requires the permission to access the usage stats.\nGo to \"Data Usage\" and proceed according to the instructions.</string>
+
+
+    <!-- Connections -->
+    <string name="connection_explain_general_label">These apps made connections  to the following servers</string>
+
+    <!-- Switch -->
+    <string name="auto_refresh">Auto-Refresh</string>
+
+    <!-- Spinner -->
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="tree_months">3 Months</string>
+
+    <!-- Alert Dialog -->
+    <string name="dialog_title">Note</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Overview -->
+    <string name="text_overview">This app provides 2 main functionalities:</string>
+    <string name="data_usage">Data Usage</string>
+    <string name="datausage_overview_text_1">Data Usage shows the amount of data which was <b>only sent out</b> from your device.\n\nA filtering option allows you to show the data usage for different time frames.\nYou can filter for Day, Week, Month or last 3 Months.</string>
+    <string name="network_connections">Network Connections</string>
+    <string name="datausage_overview_text_2">Clicking the</string>
+    <string name="datausage_overview_text_3">symbol will update the data.</string>
+    <string name="connections_overview_text">Network Connections shows which apps recently have opened network connections to certain servers.\nClicking on an entry shows the app\'s data usage.\n\nAdditional information about the servers is provided in the following format:</string>
+    <string name="app_name_label">App name</string>
+    <string name="server_ip_address">Server IP address</string>
+    <string name="server_hostname">Server Hostname</string>
+    <string name="server_company">Company of Server</string>
+    <string name="server_location">Server location</string>
+    <string name="connection_white_text"><b>WHITE</b> = connection is <b>active</b></string>
+    <string name="connection_dark_text"><b>GREY</b> = connection is <b>not active</b></string>
+
+    <!-- Data Usage Dialog -->
+    <string name="this_day">This Day:</string>
+    <string name="this_week">This Week:</string>
+    <string name="this_month">This Month:</string>
+    <string name="three_months">3 Months:</string>
+
+
+
+</resources>

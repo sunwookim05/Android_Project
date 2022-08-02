@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/app_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/app_icon"
+        app:layout_constraintTop_toTopOf="@+id/app_icon" />
+
+    <TextView
+        android:id="@+id/day_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/this_day"
+        app:layout_constraintStart_toEndOf="@+id/app_icon"
+        app:layout_constraintTop_toBottomOf="@+id/app_icon" />
+
+    <TextView
+        android:id="@+id/week_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/this_week"
+        app:layout_constraintStart_toStartOf="@+id/day_label"
+        app:layout_constraintTop_toBottomOf="@+id/day_label" />
+
+    <TextView
+        android:id="@+id/month_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/this_month"
+        app:layout_constraintStart_toStartOf="@+id/day_label"
+        app:layout_constraintTop_toBottomOf="@+id/week_label" />
+
+    <TextView
+        android:id="@+id/last3months_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/three_months"
+        app:layout_constraintStart_toStartOf="@+id/day_label"
+        app:layout_constraintTop_toBottomOf="@+id/month_label" />
+
+    <TextView
+        android:id="@+id/day_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/month_value"
+        app:layout_constraintTop_toTopOf="@+id/day_label" />
+
+    <TextView
+        android:id="@+id/week_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/month_value"
+        app:layout_constraintTop_toTopOf="@+id/week_label" />
+
+    <TextView
+        android:id="@+id/month_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:gravity="right"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/month_label"
+        app:layout_constraintTop_toTopOf="@+id/month_label" />
+
+    <TextView
+        android:id="@+id/last3months_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/month_value"
+        app:layout_constraintTop_toTopOf="@+id/last3months_label" />
+
+    <TextView
+        android:id="@+id/app_uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/app_icon"
+        app:layout_constraintTop_toBottomOf="@+id/app_name_label" />
+
+    <TextView
+        android:id="@+id/sent_out_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="right"
+        android:text="@string/sent_out"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/day_value"
+        app:layout_constraintEnd_toEndOf="@+id/day_value" />
+
+</android.support.constraint.ConstraintLayout>

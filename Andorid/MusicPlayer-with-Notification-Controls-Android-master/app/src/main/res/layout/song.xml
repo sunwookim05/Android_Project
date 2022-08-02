@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="67dp"
+    android:id="@+id/ll_songView"
+    android:longClickable="true"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_song_image" />
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/listner_songview"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_song_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#2B2929"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_song_artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#474745"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dp"
+        android:checked="false"
+        android:buttonTint="@color/colorPrimaryDark"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:visibility="visible" />
+
+</LinearLayout>
